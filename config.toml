@@ -185,6 +185,10 @@ disableHugoGeneratorInject = false
         identifier = "tags"
         name       = "Tags"
         url        = "tags/"
+      [[languages.en.menu.main]]
+        identifier = "series"
+        name       = "Series"
+        url        = "series/"
 
   [languages.zh-cn]
     languageName = 'Chinese'
@@ -208,3 +212,7 @@ disableHugoGeneratorInject = false
         identifier = "tags"
         name       = "标签"
         url        = "tags/"
+      [[languages.zh-cn.menu.main]]
+        identifier = "series"
+        name       = "系列"
+        url        = "series/"

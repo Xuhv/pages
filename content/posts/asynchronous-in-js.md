@@ -1,9 +1,10 @@
 ---
 title: "Asynchronous in JS"
 date: 2022-02-12T16:21:25+08:00
-draft: true
 toc: false
 images:
+series:
+    - my front-end
 tags:
     - Javascript
 ---
