@@ -12,8 +12,9 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: latest
+          extended: true
       - name: Build 
-        run: hugo -D
+        run: hugo
       - name: Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.0
         with:
