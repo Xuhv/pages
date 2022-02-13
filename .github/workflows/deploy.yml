@@ -1,0 +1,23 @@
+name: Auto Deploy hugo
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+      - name: Build 
+        run: hugo -D
+      - name: Deploy
+        uses: wlixcc/SFTP-Deploy-Action@v1.0
+        with:
+          username: 'root'
+          server: '${{ secrets.SERVER_IP }}'
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+          local_path: './public/*'
+          remote_path: '/usr/share/nginx/html/'
+          args: '-o ConnectTimeout=5'
