@@ -39,18 +39,6 @@ disableHugoGeneratorInject = false
 [author]
   name = "xuhui"
 
-# [markup]
-#   defaultMarkdownHandler = "blackfriday"
-#   [blackFriday]
-#     footnoteAnchorPrefix = ""
-#     footnoteReturnLinkContents = ""
-
-[markup]
-  defaultMarkdownHandler = "goldmark"
-  [goldmark]
-    [extensions]
-      footnote = true
-
 [taxonomies]
   tag      = "tags"
   category = "categories"
