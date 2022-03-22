@@ -55,7 +55,7 @@ see [TCP Segment Structure](https://en.wikipedia.org/wiki/Transmission_Control_P
 
 Ipv4: 32 bits, [IPv4 Packet Header](https://en.wikipedia.org/wiki/IPv4#Packet_structure).
 
-**Classless Network**: Like [Classful Network](https://en.wikipedia.org/wiki/Classful_network), we can divide the Internet into subnets. The subnet mask is used to determine the size of the subnet. My IP in local network is `192.168.1.9/24`, which means the subnet can contain 253 hosts.
+**Classless Network**: Like [Classful Network](https://en.wikipedia.org/wiki/Classful_network), we can divide the Internet into subnets. The subnet mask is used to determine the size of the subnet. My IP in local network is `192.168.1.9/24`, which means the subnet can contain 254 hosts.
 
 **NAT and Bridge**: When I use virtual machine, I found there are two network options: `NAT` and `Bridge`. The `NAT` is like a router, it hide the virtual machine to a private network, and the `Bridge` make it expose to host's network.
 

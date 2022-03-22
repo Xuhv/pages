@@ -55,7 +55,7 @@ see [TCP Segment Structure](https://en.wikipedia.org/wiki/Transmission_Control_P
 
 Ipv4: 32 bits, Ipv6: 128 bits
 
-上课的时候学过一个一个什么ABCDE类地址，但后面根本就没听过这说法了，后来才发现 [见他妈的鬼，这玩意原来早就不用了是吧](https://en.wikipedia.org/wiki/Classful_network)，现在用的一般都是子网掩码那一套，即`无分类编址`，我的IP是`192.168.1.9/24`，那我这个子网的网络号就是24个1，这个网就能装253个主机。
+上课的时候学过一个一个什么ABCDE类地址，但后面根本就没听过这说法了，后来才发现 [见他妈的鬼，这玩意原来早就不用了是吧](https://en.wikipedia.org/wiki/Classful_network)，现在用的一般都是子网掩码那一套，即`无分类编址`，我的IP是`192.168.1.9/24`，那我这个子网的网络号就是24个1，这个网就能装254个主机。
 
 而在装虚拟机的时候我们一般会看见两个不同的选项：`NAT`和桥接，NAT就是虚拟机通过宿主机上网，桥接就是俩机子平级。
 
