@@ -152,9 +152,9 @@ disableHugoGeneratorInject = false
     name = "github"
     url  = "https://github.com/Xuhv"
 
-  [[params.social]]
-    name = "bilibili"
-    url  = "https://space.bilibili.com/387320768"
+  # [[params.social]]
+  #   name = "bilibili"
+  #   url  = "https://space.bilibili.com/387320768"
 
 [languages]
   [languages.en]
