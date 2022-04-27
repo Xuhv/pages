@@ -12,7 +12,7 @@ tags:
 
 ```typescript
 // covariance
-type A {
+type A = {
   a: number | string;
 }
 

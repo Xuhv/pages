@@ -8,11 +8,11 @@ tags:
   - untagged
 ---
 
-`逆变` 与`协变` covariance**,这俩概念分别是指能使用比原有指定类型派生程度更低和派生程度更高的类型。
+`逆变` 与`协变`,这俩概念分别是指能使用比原有指定类型派生程度更低和派生程度更高的类型。
 
 ```typescript
 // covariance
-type A {
+type = A {
   a: number | string;
 }
 

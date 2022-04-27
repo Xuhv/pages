@@ -52,4 +52,4 @@ console.log(list)
 [^1]: https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.foreach
 [^2]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
 [^3]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
-[^4]: see[for...await of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of), I say "discovered a new world" because it introduced concepts like `Symbol.asyncIterator`, `Iteration protocols`, etc.
+[^4]: see [for...await of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of), I say "discovered a new world" because it introduced concepts like `Symbol.asyncIterator`, `Iteration protocols`, etc.

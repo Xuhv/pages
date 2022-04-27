@@ -14,7 +14,7 @@ Now I work in frontend, the useless lack of type-defining API documentation alwa
 
 In C#, We can't use `AutoMapper` to simplify the type conversion and Java has similar libraries too. As for type definition, Java can use `Lombok` while C# need no such library.
 
-```c#
+```csharp
 // type definition
 public class XDto {
     public string Name { get; set; }

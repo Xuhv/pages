@@ -14,7 +14,7 @@ tags:
 
 也没啥好抱怨的, 我也做过后端, 那么就来探索下怎么简化这东西让后端能少写点代码吧, 用C#写的话, 用`AutoMapper`可以稍稍简化下, Java也有类似库, 但说实话这种效果不咋地, 语言本身的设计限制了这类操作.
 
-```c#
+```csharp
 // type definition
 public class XDto {
     public string Name { get; set; }

@@ -52,4 +52,4 @@ console.log(list)
 [^1]: https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.foreach
 [^2]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
 [^3]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled
-[^4]: 见[for...await of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of), 但我说发现了新世界却不是因为这个语法本身, 而是它牵扯出的`Symbol.asyncIterator`, `Iteration protocols`等概念
+[^4]: 见 [for...await of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for-await...of), 但我说发现了新世界却不是因为这个语法本身, 而是它牵扯出的`Symbol.asyncIterator`, `Iteration protocols`等概念
